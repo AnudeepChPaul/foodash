@@ -1,0 +1,19 @@
+/*
+    Main class styling implementation
+    by Anudeep Chandra Paul
+*/
+@import '../../scss/variables.scss';
+
+$combined-height: $app-main-header-height + $app-main-footer-height;
+
+.App-Main {
+  display: block;
+  flex-direction: column;
+
+  .App-Main-Wrapper {
+    display: flex;
+    height: calc(100vh - #{$combined-height});
+    margin: 0 auto;
+    max-width: 81vw;
+  }
+}

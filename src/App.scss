@@ -1,0 +1,14 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  padding: 0 !important;
+
+  .App-Main {
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+  }
+}

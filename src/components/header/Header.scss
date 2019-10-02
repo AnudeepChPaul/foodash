@@ -1,0 +1,21 @@
+/*
+    Header class styling implementation
+    by Anudeep Chandra Paul
+*/
+@import '../../scss/variables.scss';
+
+.Header-Wrapper {
+  display: block;
+  width: 100%;
+  height: 5em;
+  height: $app-main-header-height;
+  box-shadow: 0 0 1.5625em #ccc;
+
+  .header {
+    margin: auto;
+    padding: 0.43em 0;
+    max-width: $app-visibility-max-width-large;
+    height: max-content;
+    background-color: $app-base-background-color;
+  }
+}

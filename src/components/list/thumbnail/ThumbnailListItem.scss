@@ -1,0 +1,21 @@
+/*
+    ThumbnailListItem class styling implementation
+    by Anudeep Chandra Paul
+*/
+
+$thumbnail-lilst-item-thumbnail-dim: 240px;
+
+.ThumbnailListItem {
+  // width: $thumbnail-lilst-item-thumbnail-dim;
+  // height: $thumbnail-lilst-item-thumbnail-dim + 30px;
+  // box-shadow: 0 0 5px #ccc;
+  // margin: 20px 0 0 20px;
+  margin-top: 0 !important;
+  height: 24.4375em;
+
+  .Thumbnail-List-Image {
+    width: 100%;
+    height: $thumbnail-lilst-item-thumbnail-dim;
+    background-size: cover !important;
+  }
+}

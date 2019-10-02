@@ -1,0 +1,13 @@
+/*
+    SimpleThumbnailList class styling implementation
+    by Anudeep Chandra Paul
+*/
+
+.SimpleThumbnailList {
+  flex: 1 1;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  margin: 0 !important;
+  height: 100%;
+}
